@@ -6,3 +6,21 @@ Create an external function called increment that will add 1 to the state variab
 
 */
 
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract Contract {
+
+    uint public x;
+
+    constructor(uint _x) {
+
+        x = _x;
+    }
+
+    function increment() external {
+
+        x++;
+    }    
+
+}
