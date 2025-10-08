@@ -11,7 +11,7 @@ pragma solidity ^0.8.20;
 
 contract Contract {
 
-  enum Foods { Apple, Pizza, Bagel, Banana }
+  	enum Foods { Apple, Pizza, Bagel, Banana }
 
 	Foods public food1 = Foods.Apple;
 	Foods public food2 = Foods.Pizza;
