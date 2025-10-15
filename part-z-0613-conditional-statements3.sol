@@ -16,6 +16,6 @@ contract ConditionalStatements {
         result = true;
     } else {
 
-        result = false;
+        result = false; 
     }
 }
